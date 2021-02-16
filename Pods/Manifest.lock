@@ -1,0 +1,32 @@
+PODS:
+  - BugShaker (0.5.1)
+  - EmptyDataSet-Swift (4.2.0)
+  - M13Checkbox (3.4.0)
+  - RangeSeekSlider (1.8.0)
+  - SnapKit (5.0.0)
+
+DEPENDENCIES:
+  - BugShaker
+  - EmptyDataSet-Swift (~> 4.2.0)
+  - M13Checkbox
+  - RangeSeekSlider
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BugShaker
+    - EmptyDataSet-Swift
+    - M13Checkbox
+    - RangeSeekSlider
+    - SnapKit
+
+SPEC CHECKSUMS:
+  BugShaker: 393fd4eaad9998736ffdd453d1e1973e775da158
+  EmptyDataSet-Swift: 1fa0b35f530a35f852ecb2b53564728b0c300aaf
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+
+PODFILE CHECKSUM: f4065af0898dd4709e69c91eaad7bd7b1a452622
+
+COCOAPODS: 1.5.3

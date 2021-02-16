@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB19C84DD5472480B8ACC241 /* Pods_Happy_Rose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32EF4688D675AD1AD9483FA /* Pods_Happy_Rose.framework */; };
+		EF11EDD523053C9700D0A1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11EDD423053C9700D0A1A3 /* AppDelegate.swift */; };
+		EF11EDD723053C9700D0A1A3 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11EDD623053C9700D0A1A3 /* DiscoveryViewController.swift */; };
+		EF11EDDA23053C9700D0A1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF11EDD823053C9700D0A1A3 /* Main.storyboard */; };
+		EF11EDDC23053C9800D0A1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF11EDDB23053C9800D0A1A3 /* Assets.xcassets */; };
+		EF11EDDF23053C9800D0A1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF11EDDD23053C9800D0A1A3 /* LaunchScreen.storyboard */; };
+		EF11EDE723053D0800D0A1A3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11EDE623053D0800D0A1A3 /* Item.swift */; };
+		EF11EDEB23054BB200D0A1A3 /* DiscoveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11EDEA23054BB200D0A1A3 /* DiscoveryCell.swift */; };
+		EF1DCAC5230B53E500FC8C29 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1DCAC4230B53E500FC8C29 /* PinterestLayout.swift */; };
+		EF1FBA85231921DB00133AAC /* HRGlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1FBA84231921DA00133AAC /* HRGlobalConstants.swift */; };
+		EF4B66692313A75500B9C851 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B66682313A75500B9C851 /* UILabelExtensions.swift */; };
+		EF4B66892314A01400B9C851 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B66882314A01400B9C851 /* UIFontExtensions.swift */; };
+		EF4CBB052314CA3400F3F8ED /* HRCollectionEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4CBB042314CA3400F3F8ED /* HRCollectionEmptyStateView.swift */; };
+		EF4CBB072315013C00F3F8ED /* DispatchQueueExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4CBB062315013C00F3F8ED /* DispatchQueueExtensions.swift */; };
+		EF4CBB092315065E00F3F8ED /* HRFloristCTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4CBB082315065E00F3F8ED /* HRFloristCTAButton.swift */; };
+		EF77852D231324F4004A649D /* HRImageCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77852C231324F4004A649D /* HRImageCarouselViewController.swift */; };
+		EFDA750D230DF27F009485CF /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA750B230DF27F009485CF /* Service.swift */; };
+		EFDA750E230DF27F009485CF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA750C230DF27F009485CF /* Result.swift */; };
+		EFDA7510230DF28E009485CF /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA750F230DF28E009485CF /* UIImageExtensions.swift */; };
+		EFDA7512230DF380009485CF /* HappyRoseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA7511230DF380009485CF /* HappyRoseAPI.swift */; };
+		EFDA7515230E226F009485CF /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA7514230E226F009485CF /* UIColorExtensions.swift */; };
+		EFDA7519230E43BC009485CF /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA7518230E43BC009485CF /* FilterButton.swift */; };
+		EFDA751B230E5BE0009485CF /* PriceFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA751A230E5BDF009485CF /* PriceFilterView.swift */; };
+		EFDA751D230E63BA009485CF /* PriceFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDA751C230E63BA009485CF /* PriceFilterView.xib */; };
+		EFDA751F230E71EA009485CF /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA751E230E71EA009485CF /* UIViewExtensions.swift */; };
+		EFEB5BE8230E7D1900AA53BD /* CALayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB5BE7230E7D1900AA53BD /* CALayerExtensions.swift */; };
+		EFEB5BEA230E882C00AA53BD /* DiscoveryViewController+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB5BE9230E882C00AA53BD /* DiscoveryViewController+Constraints.swift */; };
+		EFEB5BED230F52E400AA53BD /* StyleFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB5BEC230F52E400AA53BD /* StyleFilterView.swift */; };
+		EFEB5BEF230F67B100AA53BD /* BaseFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB5BEE230F67B100AA53BD /* BaseFilterView.swift */; };
+		EFEB5BF1230FACC700AA53BD /* StyleFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFEB5BF0230FACC700AA53BD /* StyleFilterView.xib */; };
+		EFEB5BF52310962800AA53BD /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB5BF42310962700AA53BD /* Tag.swift */; };
+		EFEB5BF92311E53700AA53BD /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB5BF82311E53700AA53BD /* ImageStore.swift */; };
+		EFEB5BFF23125DD700AA53BD /* HRDiscoveryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB5BFE23125DD700AA53BD /* HRDiscoveryDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		313091AC7D67E42904A1BF58 /* Pods-Happy Rose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Rose.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Rose/Pods-Happy Rose.debug.xcconfig"; sourceTree = "<group>"; };
+		C32EF4688D675AD1AD9483FA /* Pods_Happy_Rose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happy_Rose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2D9987119F7C75830BFA3F /* Pods-Happy Rose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Rose.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Rose/Pods-Happy Rose.release.xcconfig"; sourceTree = "<group>"; };
+		EF11EDD123053C9700D0A1A3 /* Happy Rose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Rose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF11EDD423053C9700D0A1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF11EDD623053C9700D0A1A3 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		EF11EDD923053C9700D0A1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF11EDDB23053C9800D0A1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF11EDDE23053C9800D0A1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF11EDE023053C9800D0A1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF11EDE623053D0800D0A1A3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EF11EDEA23054BB200D0A1A3 /* DiscoveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryCell.swift; sourceTree = "<group>"; };
+		EF1DCAC4230B53E500FC8C29 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		EF1FBA84231921DA00133AAC /* HRGlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRGlobalConstants.swift; sourceTree = "<group>"; };
+		EF4B66682313A75500B9C851 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		EF4B66882314A01400B9C851 /* UIFontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		EF4CBB042314CA3400F3F8ED /* HRCollectionEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRCollectionEmptyStateView.swift; sourceTree = "<group>"; };
+		EF4CBB062315013C00F3F8ED /* DispatchQueueExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtensions.swift; sourceTree = "<group>"; };
+		EF4CBB082315065E00F3F8ED /* HRFloristCTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRFloristCTAButton.swift; sourceTree = "<group>"; };
+		EF77852C231324F4004A649D /* HRImageCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HRImageCarouselViewController.swift; path = "Happy Rose/Controllers/HRImageCarouselViewController.swift"; sourceTree = SOURCE_ROOT; };
+		EFDA750B230DF27F009485CF /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EFDA750C230DF27F009485CF /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EFDA750F230DF28E009485CF /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		EFDA7511230DF380009485CF /* HappyRoseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyRoseAPI.swift; sourceTree = "<group>"; };
+		EFDA7514230E226F009485CF /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		EFDA7518230E43BC009485CF /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		EFDA751A230E5BDF009485CF /* PriceFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFilterView.swift; sourceTree = "<group>"; };
+		EFDA751C230E63BA009485CF /* PriceFilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceFilterView.xib; sourceTree = "<group>"; };
+		EFDA751E230E71EA009485CF /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		EFEB5BE7230E7D1900AA53BD /* CALayerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtensions.swift; sourceTree = "<group>"; };
+		EFEB5BE9230E882C00AA53BD /* DiscoveryViewController+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiscoveryViewController+Constraints.swift"; sourceTree = "<group>"; };
+		EFEB5BEC230F52E400AA53BD /* StyleFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleFilterView.swift; sourceTree = "<group>"; };
+		EFEB5BEE230F67B100AA53BD /* BaseFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFilterView.swift; sourceTree = "<group>"; };
+		EFEB5BF0230FACC700AA53BD /* StyleFilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StyleFilterView.xib; sourceTree = "<group>"; };
+		EFEB5BF42310962700AA53BD /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		EFEB5BF82311E53700AA53BD /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		EFEB5BFE23125DD700AA53BD /* HRDiscoveryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRDiscoveryDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF11EDCE23053C9700D0A1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB19C84DD5472480B8ACC241 /* Pods_Happy_Rose.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33095FDA6278ABDB4239C4B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C32EF4688D675AD1AD9483FA /* Pods_Happy_Rose.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE589747D5FC39610B4EFEE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				313091AC7D67E42904A1BF58 /* Pods-Happy Rose.debug.xcconfig */,
+				EA2D9987119F7C75830BFA3F /* Pods-Happy Rose.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF11EDC823053C9700D0A1A3 = {
+			isa = PBXGroup;
+			children = (
+				EF11EDD323053C9700D0A1A3 /* Happy Rose */,
+				EF11EDD223053C9700D0A1A3 /* Products */,
+				CE589747D5FC39610B4EFEE7 /* Pods */,
+				33095FDA6278ABDB4239C4B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF11EDD223053C9700D0A1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF11EDD123053C9700D0A1A3 /* Happy Rose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF11EDD323053C9700D0A1A3 /* Happy Rose */ = {
+			isa = PBXGroup;
+			children = (
+				EF11EDD423053C9700D0A1A3 /* AppDelegate.swift */,
+				EF11EDD823053C9700D0A1A3 /* Main.storyboard */,
+				EFDA7513230E2260009485CF /* Extensions */,
+				EFDA750A230DF261009485CF /* API */,
+				EF1DCABC230B467700FC8C29 /* Models */,
+				EF1DCABA230B466700FC8C29 /* Views */,
+				EF1DCABB230B467000FC8C29 /* Controllers */,
+				EF1DCAC3230B53D300FC8C29 /* Layouts */,
+				EF1FBA86231921E200133AAC /* Utilities */,
+				EF11EDDB23053C9800D0A1A3 /* Assets.xcassets */,
+				EF11EDDD23053C9800D0A1A3 /* LaunchScreen.storyboard */,
+				EF11EDE023053C9800D0A1A3 /* Info.plist */,
+			);
+			path = "Happy Rose";
+			sourceTree = "<group>";
+		};
+		EF1DCABA230B466700FC8C29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF11EDEA23054BB200D0A1A3 /* DiscoveryCell.swift */,
+				EF4CBB042314CA3400F3F8ED /* HRCollectionEmptyStateView.swift */,
+				EFEB5BF62311DCE100AA53BD /* Buttons */,
+				EFEB5BF72311DCE700AA53BD /* Filter Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF1DCABB230B467000FC8C29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF11EDD623053C9700D0A1A3 /* DiscoveryViewController.swift */,
+				EFEB5BE9230E882C00AA53BD /* DiscoveryViewController+Constraints.swift */,
+				EFEB5BFE23125DD700AA53BD /* HRDiscoveryDetailViewController.swift */,
+				EF77852C231324F4004A649D /* HRImageCarouselViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF1DCABC230B467700FC8C29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF11EDE623053D0800D0A1A3 /* Item.swift */,
+				EFEB5BF42310962700AA53BD /* Tag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF1DCAC3230B53D300FC8C29 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DCAC4230B53E500FC8C29 /* PinterestLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		EF1FBA86231921E200133AAC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFEB5BF82311E53700AA53BD /* ImageStore.swift */,
+				EF1FBA84231921DA00133AAC /* HRGlobalConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EFDA750A230DF261009485CF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EFDA750C230DF27F009485CF /* Result.swift */,
+				EFDA750B230DF27F009485CF /* Service.swift */,
+				EFDA7511230DF380009485CF /* HappyRoseAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EFDA7513230E2260009485CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFEB5BE7230E7D1900AA53BD /* CALayerExtensions.swift */,
+				EF4CBB062315013C00F3F8ED /* DispatchQueueExtensions.swift */,
+				EFDA7514230E226F009485CF /* UIColorExtensions.swift */,
+				EF4B66882314A01400B9C851 /* UIFontExtensions.swift */,
+				EFDA750F230DF28E009485CF /* UIImageExtensions.swift */,
+				EFDA751E230E71EA009485CF /* UIViewExtensions.swift */,
+				EF4B66682313A75500B9C851 /* UILabelExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFEB5BF62311DCE100AA53BD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EFDA7518230E43BC009485CF /* FilterButton.swift */,
+				EF4CBB082315065E00F3F8ED /* HRFloristCTAButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EFEB5BF72311DCE700AA53BD /* Filter Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFDA751A230E5BDF009485CF /* PriceFilterView.swift */,
+				EFDA751C230E63BA009485CF /* PriceFilterView.xib */,
+				EFEB5BEC230F52E400AA53BD /* StyleFilterView.swift */,
+				EFEB5BF0230FACC700AA53BD /* StyleFilterView.xib */,
+				EFEB5BEE230F67B100AA53BD /* BaseFilterView.swift */,
+			);
+			path = "Filter Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF11EDD023053C9700D0A1A3 /* Happy Rose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF11EDE323053C9800D0A1A3 /* Build configuration list for PBXNativeTarget "Happy Rose" */;
+			buildPhases = (
+				BA533758AE6104EF31D24562 /* [CP] Check Pods Manifest.lock */,
+				EF11EDCD23053C9700D0A1A3 /* Sources */,
+				EF11EDCE23053C9700D0A1A3 /* Frameworks */,
+				EF11EDCF23053C9700D0A1A3 /* Resources */,
+				F32F0ED676789A0F52286997 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Rose";
+			productName = "Happy Rose";
+			productReference = EF11EDD123053C9700D0A1A3 /* Happy Rose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF11EDC923053C9700D0A1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Plant Labs";
+				TargetAttributes = {
+					EF11EDD023053C9700D0A1A3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = EF11EDCC23053C9700D0A1A3 /* Build configuration list for PBXProject "Happy Rose" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF11EDC823053C9700D0A1A3;
+			productRefGroup = EF11EDD223053C9700D0A1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF11EDD023053C9700D0A1A3 /* Happy Rose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF11EDCF23053C9700D0A1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF11EDDF23053C9800D0A1A3 /* LaunchScreen.storyboard in Resources */,
+				EFDA751D230E63BA009485CF /* PriceFilterView.xib in Resources */,
+				EF11EDDC23053C9800D0A1A3 /* Assets.xcassets in Resources */,
+				EF11EDDA23053C9700D0A1A3 /* Main.storyboard in Resources */,
+				EFEB5BF1230FACC700AA53BD /* StyleFilterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA533758AE6104EF31D24562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Happy Rose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32F0ED676789A0F52286997 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Happy Rose/Pods-Happy Rose-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BugShaker/BugShaker.framework",
+				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BugShaker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Rose/Pods-Happy Rose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF11EDCD23053C9700D0A1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4CBB052314CA3400F3F8ED /* HRCollectionEmptyStateView.swift in Sources */,
+				EFDA7512230DF380009485CF /* HappyRoseAPI.swift in Sources */,
+				EF1FBA85231921DB00133AAC /* HRGlobalConstants.swift in Sources */,
+				EFEB5BEA230E882C00AA53BD /* DiscoveryViewController+Constraints.swift in Sources */,
+				EFEB5BED230F52E400AA53BD /* StyleFilterView.swift in Sources */,
+				EFEB5BE8230E7D1900AA53BD /* CALayerExtensions.swift in Sources */,
+				EF1DCAC5230B53E500FC8C29 /* PinterestLayout.swift in Sources */,
+				EF4B66892314A01400B9C851 /* UIFontExtensions.swift in Sources */,
+				EF11EDD723053C9700D0A1A3 /* DiscoveryViewController.swift in Sources */,
+				EFEB5BF52310962800AA53BD /* Tag.swift in Sources */,
+				EF4CBB072315013C00F3F8ED /* DispatchQueueExtensions.swift in Sources */,
+				EFDA751F230E71EA009485CF /* UIViewExtensions.swift in Sources */,
+				EF11EDE723053D0800D0A1A3 /* Item.swift in Sources */,
+				EFDA7510230DF28E009485CF /* UIImageExtensions.swift in Sources */,
+				EF11EDEB23054BB200D0A1A3 /* DiscoveryCell.swift in Sources */,
+				EFDA750E230DF27F009485CF /* Result.swift in Sources */,
+				EF77852D231324F4004A649D /* HRImageCarouselViewController.swift in Sources */,
+				EF11EDD523053C9700D0A1A3 /* AppDelegate.swift in Sources */,
+				EF4B66692313A75500B9C851 /* UILabelExtensions.swift in Sources */,
+				EF4CBB092315065E00F3F8ED /* HRFloristCTAButton.swift in Sources */,
+				EFDA751B230E5BE0009485CF /* PriceFilterView.swift in Sources */,
+				EFEB5BEF230F67B100AA53BD /* BaseFilterView.swift in Sources */,
+				EFDA7519230E43BC009485CF /* FilterButton.swift in Sources */,
+				EFEB5BFF23125DD700AA53BD /* HRDiscoveryDetailViewController.swift in Sources */,
+				EFEB5BF92311E53700AA53BD /* ImageStore.swift in Sources */,
+				EFDA750D230DF27F009485CF /* Service.swift in Sources */,
+				EFDA7515230E226F009485CF /* UIColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF11EDD823053C9700D0A1A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF11EDD923053C9700D0A1A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF11EDDD23053C9800D0A1A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF11EDDE23053C9800D0A1A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF11EDE123053C9800D0A1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF11EDE223053C9800D0A1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF11EDE423053C9800D0A1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313091AC7D67E42904A1BF58 /* Pods-Happy Rose.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVS5FZM4CD;
+				INFOPLIST_FILE = "Happy Rose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plant.HappyRose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF11EDE523053C9800D0A1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2D9987119F7C75830BFA3F /* Pods-Happy Rose.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVS5FZM4CD;
+				INFOPLIST_FILE = "Happy Rose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plant.HappyRose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF11EDCC23053C9700D0A1A3 /* Build configuration list for PBXProject "Happy Rose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF11EDE123053C9800D0A1A3 /* Debug */,
+				EF11EDE223053C9800D0A1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF11EDE323053C9800D0A1A3 /* Build configuration list for PBXNativeTarget "Happy Rose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF11EDE423053C9800D0A1A3 /* Debug */,
+				EF11EDE523053C9800D0A1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF11EDC923053C9700D0A1A3 /* Project object */;
+}

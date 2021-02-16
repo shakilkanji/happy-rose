@@ -1,0 +1,125 @@
+{
+    "items": [
+        {
+            "itemName":"Classic Red Rose"
+            ,"itemDescription":"One dozen long stem red roses wrapped in ribbon or paper. Spoil your loved one with this classic flower ensemble that symbolizes true love."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":50
+            ,"imagePath":"ClassicRedRose.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":875
+            ,"carouselImagePaths": ["ClassicRedRose.jpg", "ClassicRedRose1.jpg",  "ClassicRedRose2.jpg", "ClassicRedRose3.jpg", "ClassicRedRose4.jpg", "ClassicRedRose5.jpg"]
+            ,"tags": ["red", "rose", "love"]
+        },
+        {
+            "itemName":"Garden Envy"
+            ,"itemDescription":"Bursts of pink and white roses along with white gerbera daisies. Arranged in a ceramic vase"
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":50
+            ,"imagePath":"GardenEnvy.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":879
+            ,"carouselImagePaths": ["GardenEnvy.jpg", "GardenEnvy1.jpg",  "GardenEnvy2.jpg"]
+            ,"tags": ["rose", "pink", "white", "baby"]
+        },
+        {
+            "itemName":"Bright Corner"
+            ,"itemDescription":"A colorful piece with red roses, carnations, yellow gerbera daisies, and blue hydrangea. Brightens up any space in a clean slate vase."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":45
+            ,"imagePath":"BrightCorner.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":854
+            ,"carouselImagePaths": ["BrightCorner.jpg", "BrightCorner1.jpg",  "BrightCorner2.jpg", "BrightCorner3.jpg", "BrightCorner4.jpg"]
+            ,"tags": ["red", "rose", "yellow", "congrats", "birthday"]
+        },
+        {
+            "itemName":"Bunch of Lillies "
+            ,"itemDescription":"Stargazers are an elegant flower, lillies are the epitome of classy & versatile. Price is per stem."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":5
+            ,"imagePath":"BunchofLillies.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":954
+            ,"carouselImagePaths": ["BunchofLillies.jpg", "BunchofLillies1.jpg",  "BunchofLillies2.jpg"]
+            ,"tags": ["pink", "lily"]
+        },
+        {
+            "itemName":"Sunny Days"
+            ,"itemDescription":"Sunflowers are a perfect choice to brighten someone’s day. Price is per stem."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":5
+            ,"imagePath":"SunnyDays.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":530
+            ,"carouselImagePaths": ["SunnyDays.jpg", "SunnyDays1.jpg",  "SunnyDays2.jpg", "SunnyDays3.jpg"]
+            ,"tags": ["yellow", "sunflower"]
+        },
+        {
+            "itemName":"For My Sweetheart"
+            ,"itemDescription":"Touches of pink lillies along classic red roses help say what words cannot."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":70
+            ,"imagePath":"ForMySweetheart.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":779
+            ,"carouselImagePaths": ["ForMySweetheart.jpg", "ForMySweetheart1.jpg",  "ForMySweetheart2.jpg", "ForMySweetheart3.jpg", "ForMySweetheart4.jpg"]
+            ,"tags": ["red", "love", "pink", "white", "rose", "lily", "birthday"]
+        },
+        {
+            "itemName":"Skittles"
+            ,"itemDescription":"Yellow roses, irises, and lillies hugging a white hydrangea"
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":45
+            ,"imagePath":"Skittles.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":647
+            ,"carouselImagePaths": ["Skittles.jpg", "Skittles1.jpg",  "Skittles2.jpg", "Skittles3.jpg", "Skittles4.jpg", "Skittles5.jpg"]
+            ,"tags": ["yellow", "birthday", "iris", "sunflower", "lily", "white", "purple"]
+        },
+        {
+            "itemName":"Special Someone"
+            ,"itemDescription":"Classic red roses, paired with white lillies give this arrangement a classy, upscale feel."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":68
+            ,"imagePath":"SpecialSomeone.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":756
+            ,"carouselImagePaths": ["SpecialSomeone.jpg", "SpecialSomeone1.jpg",  "SpecialSomeone2.jpg", "SpecialSomeone3.jpg", "SpecialSomeone4.jpg"]
+            ,"tags": ["love", "white", "red", "rose", "lily"]
+        },
+        {
+            "itemName":"Sweetest Love"
+            ,"itemDescription":"One dozen long stem red roses arranged in a case with beautiful stargazer lillies. Share your heart with this classic flower ensemble."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":90
+            ,"imagePath":"SweetestLove.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":728
+            ,"carouselImagePaths": ["SweetestLove.jpg", "SweetestLove1.jpg",  "SweetestLove2.jpg", "SweetestLove3.jpg", "SweetestLove4.jpg", "SweetestLove5.jpg"]
+            ,"tags": ["love", "lily", "red", "pink"]
+        },
+        {
+            "itemName":"Sweet Morning"
+            ,"itemDescription":"Peach roses, gerbera daisies and white hydrangea"
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":60
+            ,"imagePath":"SweetMorning.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":754
+            ,"carouselImagePaths": ["SweetMorning.jpg", "SweetMorning1.jpg",  "SweetMorning2.jpg", "SweetMorning3.jpg"]
+            ,"tags": ["orange", "pink", "birthday", "congrats", "hospital", "white", "rose"]
+        },
+        {
+            "itemName":"Vintage Charm"
+            ,"itemDescription":"Pink roses and carnations with a blue hydrangea and eucalyptus leaves."
+            ,"itemCare":"Keep these petals in tip top shape by displaying in a cool room and changing the water every few days."
+            ,"price":60
+            ,"imagePath":"VintageCharm.jpg"
+            ,"imageWidth":621
+            ,"imageHeight":677
+            ,"carouselImagePaths": ["VintageCharm.jpg", "VintageCharm1.jpg",  "VintageCharm2.jpg", "VintageCharm3.jpg", "VintageCharm4.jpg"]
+            ,"tags": ["pink", "purple", "baby", "birthday", "hospital", "sympathy", "rose"]
+        }
+    ]
+}
